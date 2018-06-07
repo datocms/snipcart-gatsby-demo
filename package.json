@@ -4,10 +4,13 @@
   "version": "1.0.0",
   "author": "Stefano Verna <s.verna@datocms.com>",
   "dependencies": {
+    "datocms-client": "0.5.2",
     "gatsby": "^1.9.247",
+    "gatsby-image": "1.0.52",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sass": "1.0.26",
+    "gatsby-source-datocms": "1.1.7",
     "react-helmet": "^5.2.0"
   },
   "license": "MIT",
