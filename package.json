@@ -11,8 +11,12 @@
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sass": "1.0.26",
     "gatsby-source-datocms": "1.1.7",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "gatsby-plugin-snipcart": "1.0.6"
   },
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

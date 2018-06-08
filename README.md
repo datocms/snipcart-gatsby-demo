@@ -1,5 +1,5 @@
 # Snipcart + GatsbyJS + DatoCMS example
 
-## Deploy
+## Deploy on DatoCMS
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://dashboard.datocms.com/projects/new-from-template/?repository=https://github.com/stefanoverna/snipcart-gatsby-datocms-demo)
+[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/deploy?repo=datocms/snipcart-gatsby-demo)

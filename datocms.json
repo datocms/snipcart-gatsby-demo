@@ -1,7 +1,7 @@
 {
-  "name": "Snipcart + GatsbyJS Example",
-  "previewImage": "https://cdn.rawgit.com/stefanoverna/snipcart-gatsby-datocms-demo/7c923230/preview.png",
-  "templateId": "14",
+  "name": "Snipcart + Gatsby Example",
+  "previewImage": "https://rawgit.com/datocms/snipcart-gatsby-demo/master/preview.png",
+  "templateId": "5985",
   "deploymentType": "netlify",
   "netlifyBuildCommand": "gatsby build",
   "netlifyBuildDirectory": "public"

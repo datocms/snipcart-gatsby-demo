@@ -17,15 +17,15 @@ const Layout = ({ children, data }) => (
                 {data.site.siteMetadata.siteName}
               </Link>
             </h1>
-            <a href="#" className="Header__summary">
+            <a href="#" className="Header__summary snipcart-summary snipcart-checkout">
               <div className="Header__summary__title">
                 🛍 MY CART 🛍
               </div>
               <div className="Header__summary__line">
-                Number of items: <span>0</span>
+                Number of items: <span className="snipcart-total-items"></span>
               </div>
               <div className="Header__summary__line">
-                Total price: <span>0</span>
+                Total price: <span className="snipcart-total-price"></span>
               </div>
             </a>
           </div>
