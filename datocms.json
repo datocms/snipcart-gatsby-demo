@@ -3,6 +3,7 @@
   "previewImage": "https://cdn.jsdelivr.net/gh/datocms/snipcart-gatsby-demo/preview.png",
   "templateId": "5985",
   "deploymentType": "static",
-  "netlifyBuildCommand": "gatsby build",
-  "netlifyBuildDirectory": "public"
+  "buildCommand": "gatsby build",
+  "buildDirectory": "public",
+  "datocmsApiTokenEnvName": "DATO_API_TOKEN",
 }
