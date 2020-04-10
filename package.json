@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Stefano Verna <s.verna@datocms.com>",
   "dependencies": {
-    "datocms-client": "^2.0.7",
+    "dotenv": "^8.2.0",
     "gatsby": "^2.18.8",
     "gatsby-image": "^2.2.34",
     "gatsby-link": "^2.2.25",
