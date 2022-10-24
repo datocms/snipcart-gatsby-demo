@@ -121,7 +121,7 @@
   $steps: 20;
 
   @for $i from 0 through $steps {
-    #{percentage($i * calc(1/$steps) + calc((15 - random(30)) / 15) * calc(1/$steps))} {
+    #{abs(percentage($i * calc(1/$steps) + calc((15 - random(30)) / 15) * calc(1/$steps)))} {
       @if ($i % 3 == 0) {
         opacity: 1;
       } @else {
