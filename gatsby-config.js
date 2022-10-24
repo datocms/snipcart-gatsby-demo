@@ -1,4 +1,4 @@
-require("dotenv").config();
+require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
@@ -6,7 +6,6 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-sass',
-    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-datocms`,
       options: { apiToken: process.env.DATO_API_TOKEN },
@@ -14,9 +13,10 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-snipcart',
       options: {
-        apiKey: 'OWE3MmZmMjQtNTk3Yi00OThhLWEwMmUtZDY4ZWM4NzIwYzZiNjM2NjM0Mzc1NzE0MTUwNzI1',
-        autopop: true
-      }
+        apiKey:
+          'OWE3MmZmMjQtNTk3Yi00OThhLWEwMmUtZDY4ZWM4NzIwYzZiNjM2NjM0Mzc1NzE0MTUwNzI1',
+        autopop: true,
+      },
     },
   ],
-}
+};

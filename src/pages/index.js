@@ -22,15 +22,24 @@ const Home = () => (
             }
           }
         }
-        site {
-          siteMetadata {
+        seo: datoCmsSeoMetaTags {
+          tags
+        }
+        site: datoCmsSite {
+          faviconMetaTags {
+            tags
+          }
+          globalSeo {
             siteName
           }
         }
       }
     `}
     render={data => (
-      <Layout site={data.site}>
+      <Layout
+        site={data.site}
+        seo={{ ...data.seo, ...data.site.faviconMetaTags }}
+      >
         <div className="Catalogue">
           {data.products.edges.map(({ node: product }) => (
             <div className="Catalogue__item" key={product.id}>
