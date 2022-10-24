@@ -99,7 +99,7 @@
   $steps: 5;
 
   @for $i from 0 through $steps {
-    #{percentage($i * (1 / $steps))}{
+    #{percentage($i * calc(1/$steps))}{
       transform: translate((random(50) - 25) + px, (random(50) - 25) + px) rotate((30 - random(60)) + deg);
       width: (1 + random(3)) + px;
     }
@@ -110,7 +110,7 @@
   $steps: 5;
 
   @for $i from 0 through $steps {
-    #{percentage($i * (1 / $steps))}{
+    #{percentage($i * calc(1/$steps))}{
       transform: translate((random(50) - 25) + px, (random(50) - 25) + px) rotate((30 - random(60)) + deg);
       height: (1 + random(2)) + px;
     }
@@ -121,7 +121,7 @@
   $steps: 20;
 
   @for $i from 0 through $steps {
-    #{percentage($i * (1 / $steps) + ((15 - random(30)) / 15) * (1 / $steps))} {
+    #{percentage($i * calc(1/$steps) + calc((15 - random(30)) / 15) * calc(1/$steps))} {
       @if ($i % 3 == 0) {
         opacity: 1;
       } @else {
