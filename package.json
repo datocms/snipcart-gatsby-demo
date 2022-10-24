@@ -9,7 +9,7 @@
     "gatsby-image": "^2.2.34",
     "gatsby-link": "^4.24.1",
     "gatsby-plugin-sass": "^5.24.0",
-    "gatsby-plugin-snipcart": "^1.1.2",
+    "gatsby-plugin-snipcart-advanced": "^1.0.3",
     "gatsby-source-datocms": "^4.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

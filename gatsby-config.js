@@ -14,9 +14,9 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-snipcart',
+      resolve: 'gatsby-plugin-snipcart-advanced',
       options: {
-        apiKey:
+        publicApiKey:
           process.env.SNIPCART_PUBLIC_TOKEN ||
           'OWE3MmZmMjQtNTk3Yi00OThhLWEwMmUtZDY4ZWM4NzIwYzZiNjM2NjM0Mzc1NzE0MTUwNzI1',
         autopop: true,
