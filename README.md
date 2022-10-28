@@ -27,7 +27,7 @@ npm install
 Add an `.env` file containing the read-only API token of your DatoCMS site (set up with the demo button above):
 
 ```
-echo 'DATO_API_TOKEN=abc123' >> .env
+echo 'DATO_READONLY_API_KEY=abc123' >> .env
 ```
 
 Then, to run this website in development mode (with live-reload):
