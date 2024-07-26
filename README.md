@@ -57,7 +57,9 @@ The final result will be saved in the `public` directory.
 This project is also available as a demo on [Gatsby Cloud](https://www.gatsbyjs.com/). This will allow you to test the [Gatsby preview](https://www.datocms.com/blog/live-preview-changes-on-gatsby-preview) capabilities in no time.
 
 <!--datocms-autoinclude-footer start-->
------------------
+
+---
+
 # What is DatoCMS?
 <a href="https://www.datocms.com/"><img src="https://www.datocms.com/images/full_logo.svg" height="60"></a>
 
@@ -79,5 +81,4 @@ Trusted by over 25,000 enterprise businesses, agency partners, and individuals a
 - [datocms/plugins](https://github.com/datocms/plugins): Example plugins we've made that extend the editor/admin dashboard
 - [DatoCMS Starters](https://www.datocms.com/marketplace/starters) has examples for various Javascript frontend frameworks
 
-Or see [all our public repos](https://github.com/orgs/datocms/repositories?q=&type=public&language=&sort=stargazers)
-<!--datocms-autoinclude-footer end-->
+Or see [all our public repos](https://github.com/orgs/datocms/repositories?q=&type=public&language=&sort=stargazers)<!--datocms-autoinclude-footer end-->
